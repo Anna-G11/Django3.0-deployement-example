@@ -1,0 +1,7 @@
+{% extends "temp_app.html" %}
+  {%block body_block%}
+    <h1>Welcome t!</h1>
+    <h2>Index Page</h2>
+    <h3>{{ text | cut:'world' }}</h3>
+    {{ number|add:"99" }}
+  {%endblock%}
